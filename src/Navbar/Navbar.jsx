@@ -7,47 +7,66 @@ const Navbar = () => {
   const [activePage, setActivePage] = useState(() => {
     return localStorage.getItem("activePage") || "home";
   });
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
   const navItems = [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "teams", label: "Teams" },
     { id: "projects", label: "Projects" },
   ];
-
+  
   useEffect(() => {
     localStorage.setItem("activePage", activePage);
   }, [activePage]);
-
+  
   const handleNavClick = (pageId) => {
-    if(pageId=="home")
+    if(pageId === "home")
       navigate("/");
     else
-      navigate("/"+pageId);
-
+      navigate("/" + pageId);
     setActivePage(pageId);
+    setIsMenuOpen(false); // Close mobile menu after click
   };
-
+  
   return (
-    <nav className="bg-white shadow-md w-full px-6 py-4 fixed z-20">
+    <nav className="bg-white shadow-md w-full px-4 sm:px-6 py-4 fixed z-20">
       <div className="flex items-center justify-between">
         {/* Logo on the left */}
         <div className="flex-shrink-0">
-          <div className="h-12 w-60 flex">
+          <div className="h-12 flex items-center">
             <img
               src="/Logo_WHite_1.png"
               alt="Logo"
               className="h-12 w-auto mr-2"
             />
-            National Service Scheme
-            <br />
-            Kurukshetra
+            <div className="hidden sm:block text-sm md:text-base">
+              National Service Scheme
+              <br />
+              Kurukshetra
+            </div>
           </div>
         </div>
-
-        {/* Navigation in the center */}
-        <div className="flex-grow flex justify-center ml-[-140px]">
-          <div className="relative flex space-x-8">
+        
+        {/* Hamburger menu for mobile */}
+        <div className="sm:hidden">
+          <button 
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="text-gray-600 hover:text-gray-900 focus:outline-none"
+          >
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              {isMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+        
+        {/* Navigation in the center for desktop */}
+        <div className="hidden sm:flex flex-grow justify-center md:ml-[-140px]">
+          <div className="relative flex space-x-4 md:space-x-8">
             {navItems.map((item) => (
               <div key={item.id} className="relative">
                 <button
@@ -60,7 +79,6 @@ const Navbar = () => {
                 >
                   {item.label}
                 </button>
-
                 {/* Animated indicator bar */}
                 <motion.div
                   initial={{ width: 0 }}
@@ -72,10 +90,36 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-
+        
         {/* Empty div to balance the layout */}
-        <div className="flex-shrink-0 w-32" />
+        <div className="hidden sm:block flex-shrink-0 w-32" />
       </div>
+      
+      {/* Mobile menu (slide down) */}
+      {isMenuOpen && (
+        <motion.div 
+          initial={{ opacity: 0, height: 0 }}
+          animate={{ opacity: 1, height: "auto" }}
+          transition={{ duration: 0.3 }}
+          className="sm:hidden mt-2"
+        >
+          <div className="flex flex-col space-y-2 pt-2 pb-3 border-t border-gray-200">
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                className={`px-4 py-2 text-left ${
+                  activePage === item.id
+                    ? "bg-blue-50 text-blue-600"
+                    : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+                } transition-colors duration-300`}
+                onClick={() => handleNavClick(item.id)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </motion.div>
+      )}
     </nav>
   );
 };
