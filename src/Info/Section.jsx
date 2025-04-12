@@ -116,7 +116,7 @@ const Section = () => {
               {/* Main image */}
               <div className="rounded-lg overflow-hidden shadow-xl bg-white p-2 relative z-20">
                 <img 
-                  src="/api/placeholder/800/600" 
+                  src="../../public/nss2.jpg" 
                   alt="NSS Members on Bicycles" 
                   className="w-full h-64 md:h-80 object-cover rounded-md"
                 />

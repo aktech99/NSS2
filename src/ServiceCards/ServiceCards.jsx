@@ -8,9 +8,9 @@ const ServiceCards = () => {
   const cards = [
     {
       id: 1,
-      title: "Community Cycling Program",
-      description: "Join our initiative to promote sustainable transportation and community health. Our cycling programs engage local residents in regular group rides while raising awareness about environmental issues.",
-      image: "/api/placeholder/400/320",
+      title: "National Bicycle Day",
+      description: "“Let Us Forget Motor Vehicles This Day, And Cycle On World Bicycle Day.”",
+      image: "../../public/nss1.jpg",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="5.5" cy="17.5" r="3.5"/>
@@ -21,9 +21,9 @@ const ServiceCards = () => {
     },
     {
       id: 2,
-      title: "Free Health Check-up Camps",
-      description: "We organize regular health camps providing essential medical services to underserved communities. Our team of volunteer healthcare professionals offers preventive care and early detection screenings.",
-      image: "/api/placeholder/400/320",
+      title: "Health CheckUp Camp",
+      description: "“The Health of Nations is more important than the Wealth of Nations.” - Will Durant",
+      image: "../../public/DSC_4777.jpg",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0016.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 002 8.5c0 2.3 1.5 4.05 3 5.5l7 7 7-7z"/>
@@ -32,9 +32,9 @@ const ServiceCards = () => {
     },
     {
       id: 3,
-      title: "Clean Water Initiative",
-      description: "Our clean water projects focus on providing sustainable access to safe drinking water in rural areas. Through community partnerships, we install filtration systems and educate on water conservation practices.",
-      image: "/api/placeholder/400/320",
+      title: "Blood Donation Camp",
+      description: "“The only thing more valuable than wealth is life, and blood is the most valuable medicine for saving lives.”",
+      image: "../../public/DSC_4777.jpg",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/>

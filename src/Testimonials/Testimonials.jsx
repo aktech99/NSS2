@@ -4,44 +4,38 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Emma Rodriguez",
-      role: "Marketing Director",
-      company: "TechVision Inc.",
-      image: "/api/placeholder/100/100",
+      name: "Prof.Pankaj Chandna",
+      role: "Proffessor",
+      company: "",
+      image: "../../public/download.jpeg",
       quote: "This platform completely transformed how our team collaborates. The intuitive interface made adoption seamless across all departments. We've seen a 40% increase in project completion rates since implementation."
     },
     {
       id: 2,
-      name: "Michael Chang",
-      role: "Senior Developer",
-      company: "InnovateSoft",
-      image: "/api/placeholder/100/100",
+      name: "Dr.Shyam Sunder Trehan",
+      role: "Oncologist Surgeon",
+      company: "Sohana Hospital Mohalli",
+      image: "../../public/dr.shyam-sunder-trehan.jpg",
       quote: "As a developer, I appreciate the attention to technical details. The API documentation is comprehensive, and the support team genuinely understands developers' needs. It's rare to find both excellent UX and solid backend architecture."
     },
     {
       id: 3,
-      name: "Sophia Washington",
-      role: "CEO",
-      company: "GrowthPath Ventures",
-      image: "/api/placeholder/100/100",
+      name: "Dr.Neha Dua Sobti",
+      role: "Consultant Psychiatrist",
+      company: "",
+      image: "../../public/neha_dua_sobti.png",
       quote: "The ROI we've experienced has exceeded our expectations. Within just three months, we recouped our investment and started seeing tangible growth. I recommend this solution to every entrepreneur in my network."
     },
     {
       id: 4,
-      name: "James Okonkwo",
-      role: "Operations Manager",
-      company: "GlobalSupply Co.",
-      image: "/api/placeholder/100/100",
+      name: "Dr. B.V Ramana Reddy",
+      role: "Director",
+      company: "NIT Kurukshetra",
+      image: "../../public/BV_Ramana_Reddy.jpg",
       quote: "Implementing this system has eliminated countless hours of manual work for our operations team. The automated workflows have reduced our processing time by 65% and practically eliminated human error."
     },
-    {
-      id: 5,
-      name: "Aisha Patel",
-      role: "Product Manager",
-      company: "NexGen Solutions",
-      image: "/api/placeholder/100/100",
-      quote: "The customization options are what sold us. We were able to tailor the platform to our unique workflow without compromise. The learning curve was minimal, and now we couldn't imagine working without it."
-    }
+    
+     
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -85,7 +79,7 @@ const Testimonials = () => {
     <div className="bg-gradient-to-b from-blue-50 to-white py-16 pt-60 pb-60">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">What Our Clients Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">What Our Contributors Say!!!</h2>
           <div className="flex justify-center">
             <div className="h-1 w-20 bg-blue-500 rounded"></div>
           </div>

@@ -3,39 +3,19 @@ import React, { useState, useEffect } from 'react';
 const Carousel = () => {
   const professors = [
     {
-      name: "Dr. Sarah Johnson",
-      designation: "Professor of Quantum Physics",
-      image: "/api/placeholder/300/300"
+      name: "Prof.Vijay Kumar",
+      designation: "Program Officer",
+      image: "../../public/Vijay_verma_Sir.jpeg"
     },
     {
-      name: "Dr. Marcus Chen",
-      designation: "Associate Professor of Molecular Biology",
-      image: "/api/placeholder/300/300"
+      name: "Sachin Aggarwal",
+      designation: "General Secretary",
+      image: "../../public/SachinSir.jpg"
     },
     {
-      name: "Dr. Amara Patel",
-      designation: "Distinguished Professor of Computer Science",
-      image: "/api/placeholder/300/300"
-    },
-    {
-      name: "Dr. Robert Williams",
-      designation: "Assistant Professor of Psychology",
-      image: "/api/placeholder/300/300"
-    },
-    {
-      name: "Dr. Elena Rodriguez",
-      designation: "Professor of Mechanical Engineering",
-      image: "/api/placeholder/300/300"
-    },
-    {
-      name: "Dr. David Kim",
-      designation: "Associate Professor of Economics",
-      image: "/api/placeholder/300/300"
-    },
-    {
-      name: "Dr. Olivia Nkosi",
-      designation: "Professor of International Relations",
-      image: "/api/placeholder/300/300"
+      name: "Sahas Satsangi",
+      designation: "Joint Seceratory",
+      image: "../../public/SahasSir.jpg"
     }
   ];
 
@@ -62,11 +42,10 @@ const Carousel = () => {
     <div className="w-full bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800 py-16 mt-40">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-2">Our Distinguished Faculty</h2>
+          <h2 className="text-4xl font-bold text-white mb-2">We Are Professional & Expert Workers</h2>
           <div className="flex justify-center">
             <div className="h-1 w-24 bg-yellow-400 rounded"></div>
           </div>
-          <p className="text-lg text-indigo-100 mt-4">Meet the brilliant minds shaping tomorrow's leaders</p>
         </div>
         
         <div className="relative overflow-hidden">
