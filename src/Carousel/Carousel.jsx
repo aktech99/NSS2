@@ -5,17 +5,29 @@ const Carousel = () => {
     {
       name: "Prof.Vijay Kumar",
       designation: "Program Officer",
-      image: "../../Vijay_verma_Sir.jpeg"
+      image: "../../carousel/1.jpeg"
     },
     {
       name: "Sachin Aggarwal",
       designation: "General Secretary",
-      image: "../../SachinSir.jpg"
+      image: "../../carousel/2.jpeg"
     },
     {
       name: "Sahas Satsangi",
       designation: "Joint Seceratory",
-      image: "../../SahasSir.jpg"
+      image: "../../carousel/3.jpeg"
+    }
+    ,
+    {
+      name: "Sahas Satsangi",
+      designation: "Joint Seceratory",
+      image: "../../carousel/4.jpeg"
+    }
+    ,
+    {
+      name: "Sahas Satsangi",
+      designation: "Joint Seceratory",
+      image: "../../carousel/5.jpeg"
     }
   ];
 
