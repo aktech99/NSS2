@@ -7,7 +7,7 @@ const Testimonials = () => {
       name: "Prof.Pankaj Chandna",
       role: "Proffessor",
       company: "",
-      image: "../../public/download.jpeg",
+      image: "../../download.jpeg",
       quote: "This platform completely transformed how our team collaborates. The intuitive interface made adoption seamless across all departments. We've seen a 40% increase in project completion rates since implementation."
     },
     {
@@ -23,7 +23,7 @@ const Testimonials = () => {
       name: "Dr.Neha Dua Sobti",
       role: "Consultant Psychiatrist",
       company: "",
-      image: "../../public/neha_dua_sobti.png",
+      image: "../../neha_dua_sobti.png",
       quote: "The ROI we've experienced has exceeded our expectations. Within just three months, we recouped our investment and started seeing tangible growth. I recommend this solution to every entrepreneur in my network."
     },
     {
@@ -31,7 +31,7 @@ const Testimonials = () => {
       name: "Dr. B.V Ramana Reddy",
       role: "Director",
       company: "NIT Kurukshetra",
-      image: "../../public/BV_Ramana_Reddy.jpg",
+      image: "../../BV_Ramana_Reddy.jpg",
       quote: "Implementing this system has eliminated countless hours of manual work for our operations team. The automated workflows have reduced our processing time by 65% and practically eliminated human error."
     },
     
