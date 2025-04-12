@@ -5,17 +5,17 @@ const Carousel = () => {
     {
       name: "Prof.Vijay Kumar",
       designation: "Program Officer",
-      image: "../../public/Vijay_verma_Sir.jpeg"
+      image: "../../Vijay_verma_Sir.jpeg"
     },
     {
       name: "Sachin Aggarwal",
       designation: "General Secretary",
-      image: "../../public/SachinSir.jpg"
+      image: "../../SachinSir.jpg"
     },
     {
       name: "Sahas Satsangi",
       designation: "Joint Seceratory",
-      image: "../../public/SahasSir.jpg"
+      image: "../../SahasSir.jpg"
     }
   ];
 

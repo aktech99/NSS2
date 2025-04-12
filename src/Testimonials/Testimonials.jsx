@@ -15,7 +15,7 @@ const Testimonials = () => {
       name: "Dr.Shyam Sunder Trehan",
       role: "Oncologist Surgeon",
       company: "Sohana Hospital Mohalli",
-      image: "../../public/dr.shyam-sunder-trehan.jpg",
+      image: "../../dr.shyam-sunder-trehan.jpg",
       quote: "As a developer, I appreciate the attention to technical details. The API documentation is comprehensive, and the support team genuinely understands developers' needs. It's rare to find both excellent UX and solid backend architecture."
     },
     {
