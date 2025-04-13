@@ -14,7 +14,7 @@ const Carousel = () => {
     }
     ,
     {
-      name: "Isha",
+      name: "Isha gahlawat",
       designation: "General Seceratory",
       image: "../../carousel/4.jpeg"
     }
