@@ -4,36 +4,69 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Prof.Pankaj Chandna",
-      role: "Proffessor",
-      company: "",
-      image: "../../download.jpeg",
-      quote: "This platform completely transformed how our team collaborates. The intuitive interface made adoption seamless across all departments. We've seen a 40% increase in project completion rates since implementation."
+      name: "Lov Kumar",
+      role: "Asst. Proffessor",
+      company: "Department of Computer Science",
+      image: "../../test/1.jpeg",
+      quote: "The best way to find yourself is to lose yourself in the service of others."
     },
     {
       id: 2,
-      name: "Dr.Shyam Sunder Trehan",
-      role: "Oncologist Surgeon",
-      company: "Sohana Hospital Mohalli",
-      image: "../../dr.shyam-sunder-trehan.jpg",
-      quote: "As a developer, I appreciate the attention to technical details. The API documentation is comprehensive, and the support team genuinely understands developers' needs. It's rare to find both excellent UX and solid backend architecture."
+      name: "S.Suresh",
+      role: "Assistant Professor Grade - I",
+      company: "Department of Computer Applications",
+      image: "../../test/2.jpeg",
+      quote: "Service to others is the rent you pay for your room here on earth."
     },
     {
       id: 3,
-      name: "Dr.Neha Dua Sobti",
-      role: "Consultant Psychiatrist",
-      company: "",
-      image: "../../neha_dua_sobti.png",
-      quote: "The ROI we've experienced has exceeded our expectations. Within just three months, we recouped our investment and started seeing tangible growth. I recommend this solution to every entrepreneur in my network."
+      name: "Dr. Dheeraj Kumar Sharma",
+      role: "Assistant Professor Grade-I",
+      company: "Department of ECE",
+      image: "../../test/3.jpeg",
+      quote: "The smallest act of kindness is worth more than the grandest intention." 
+
     },
     {
       id: 4,
       name: "Dr. B.V Ramana Reddy",
       role: "Director",
       company: "NIT Kurukshetra",
-      image: "../../BV_Ramana_Reddy.jpg",
-      quote: "Implementing this system has eliminated countless hours of manual work for our operations team. The automated workflows have reduced our processing time by 65% and practically eliminated human error."
+      image: "../../test/BV_Ramana_Reddy.jpg",
+      quote: "Alone we can do so little; together we can do so much."
     },
+    {
+      id: 5,
+      name: "Dr. Amandeep Kaur",
+      role: "Assistant Professor (Grade -II)",
+      company: "Department of Computer Engineering",
+      image: "../../test/5.jpeg",
+      quote: "Be the change that you wish to see in the world."
+    },
+    {
+      id: 6,
+      name: "Dr. Than Singh Saini",
+      role: "Assistant Professor Grade-I",
+      company: "Department of Physics",
+      image: "../../test/6.jpeg",
+      quote: "No act of kindness, no matter how small, is ever wasted."
+    },
+    {
+      id: 7,
+      name: "Dr. Pratishtha Verma ",
+      role: "Assistant Professor grade II",
+      company: "Computer Engineering Department",
+      image: "../../test/7.jpeg",
+      quote: "You have two hands: one for helping yourself, the other for helping others."
+    },
+    {
+      id: 8,
+      name: "Dr. Shweta Rathi",
+      role: "Assistant Professor, Grade I",
+      company: "Civil Engineering Department",
+      image: "../../test/4.jpeg",
+      quote: "The best way to predict the future is to create it."
+    }
     
      
   ];
@@ -79,7 +112,7 @@ const Testimonials = () => {
     <div className="bg-gradient-to-b from-blue-50 to-white py-16 pt-60 pb-60">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">What Our Contributors Say!!!</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">What are program officers say!!!</h2>
           <div className="flex justify-center">
             <div className="h-1 w-20 bg-blue-500 rounded"></div>
           </div>

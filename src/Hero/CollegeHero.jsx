@@ -116,13 +116,7 @@ const CollegeHero = () => {
       </div>
       
       {/* Scroll indicator - Hide on very small screens */}
-      <motion.div 
-        className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
-        initial={{ opacity: 0 }}
-        animate={isLoaded ? { opacity: 0.7 } : {}}
-        transition={{ delay: 1.5, duration: 1 }}
-      >
-        <p className="text-white text-xs sm:text-sm mb-1 sm:mb-2">Scroll to discover</p>
+     
         <motion.div 
           className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white rounded-full flex justify-center pt-1"
           animate={{ y: [0, 10, 0] }}
@@ -134,7 +128,7 @@ const CollegeHero = () => {
             transition={{ repeat: Infinity, duration: 2 }}
           />
         </motion.div>
-      </motion.div>
+    
     </div>
   );
 };

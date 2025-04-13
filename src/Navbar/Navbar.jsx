@@ -13,7 +13,7 @@ const Navbar = () => {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "services", label: "Units" }, // Added Services tab
-    { id: "teams", label: "Teams" },
+    { id: "teams", label: "NSS Manual" },
     { id: "projects", label: "Projects" },
   ];
   

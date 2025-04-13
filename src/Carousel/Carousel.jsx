@@ -3,31 +3,31 @@ import React, { useState, useEffect } from 'react';
 const Carousel = () => {
   const professors = [
     {
-      name: "Prof.Vijay Kumar",
-      designation: "Program Officer",
-      image: "../../carousel/1.jpeg"
-    },
-    {
-      name: "Sachin Aggarwal",
-      designation: "General Secretary",
+      name: "Divyam",
+      designation: "Joint Secretary",
       image: "../../carousel/2.jpeg"
     },
     {
-      name: "Sahas Satsangi",
+      name: "Abhishek Sharma",
       designation: "Joint Seceratory",
       image: "../../carousel/3.jpeg"
     }
     ,
     {
-      name: "Sahas Satsangi",
-      designation: "Joint Seceratory",
+      name: "Isha",
+      designation: "General Seceratory",
       image: "../../carousel/4.jpeg"
     }
     ,
     {
-      name: "Sahas Satsangi",
-      designation: "Joint Seceratory",
+      name: "Nithin Raja Yadav",
+      designation: "General Seceratory",
       image: "../../carousel/5.jpeg"
+    },
+    {
+      name: "Divyanshi",
+      designation: "General Seceratory",
+      image: "../../carousel/6.jpg"
     }
   ];
 
@@ -54,7 +54,7 @@ const Carousel = () => {
     <div className="w-full bg-gradient-to-r from-blue-800 via-blue-700 to-blue-800 py-16 mt-40">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-2">We Are Professional & Expert Workers</h2>
+          <h2 className="text-4xl font-bold text-white mb-2">NSS Post Holders</h2>
           <div className="flex justify-center">
             <div className="h-1 w-24 bg-yellow-400 rounded"></div>
           </div>
