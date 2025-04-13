@@ -40,7 +40,7 @@ const Testimonials = () => {
       name: "Dr. Amandeep Kaur",
       role: "Assistant Professor (Grade -II)",
       company: "Department of Computer Engineering",
-      image: "../../test/5.jpeg",
+      image: "../../test/4.jpeg",
       quote: "Be the change that you wish to see in the world."
     },
     {
@@ -48,7 +48,7 @@ const Testimonials = () => {
       name: "Dr. Than Singh Saini",
       role: "Assistant Professor Grade-I",
       company: "Department of Physics",
-      image: "../../test/6.jpeg",
+      image: "../../test/5.jpeg",
       quote: "No act of kindness, no matter how small, is ever wasted."
     },
     {
@@ -56,7 +56,7 @@ const Testimonials = () => {
       name: "Dr. Pratishtha Verma ",
       role: "Assistant Professor grade II",
       company: "Computer Engineering Department",
-      image: "../../test/7.jpeg",
+      image: "../../test/6.jpeg",
       quote: "You have two hands: one for helping yourself, the other for helping others."
     },
     {
@@ -64,7 +64,7 @@ const Testimonials = () => {
       name: "Dr. Shweta Rathi",
       role: "Assistant Professor, Grade I",
       company: "Civil Engineering Department",
-      image: "../../test/4.jpeg",
+      image: "../../test/7.jpeg",
       quote: "The best way to predict the future is to create it."
     }
     
