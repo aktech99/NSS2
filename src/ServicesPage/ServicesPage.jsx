@@ -27,7 +27,7 @@ const ServicesPage = () => {
       id: "sanskar",
       title: "Sanskar (3rd Year)",
       description: "Sanskar aims to instill strong moral values and ethical conduct among volunteers. Through cultural activities, discussions, and awareness sessions, it shapes their character, encouraging them to become responsible citizens with a deep sense of integrity and social consciousness.",
-      image: "/services/sanskar.jpg",
+      image: "/units/sanskar.png",
       color: "from-emerald-500/80 to-teal-600/80"
     },
     {
