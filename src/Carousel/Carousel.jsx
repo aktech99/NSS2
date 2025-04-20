@@ -20,7 +20,7 @@ const Carousel = () => {
     },
     {
       name: "Abhishek Koushik",
-      designation: "Joint Seceratory",
+      designation: "Additional Seceratory",
       image: "../../carousel/7.png"
     },
     {
