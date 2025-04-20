@@ -8,38 +8,23 @@ const ServiceCards = () => {
   const cards = [
     {
       id: 1,
-      title: "National Bicycle Day",
-      description: "“Let Us Forget Motor Vehicles This Day, And Cycle On World Bicycle Day.”",
-      image: "../../nss1.jpg",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="5.5" cy="17.5" r="3.5"/>
-          <circle cx="18.5" cy="17.5" r="3.5"/>
-          <path d="M15 6a1 1 0 100-2 1 1 0 000 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
-        </svg>
-      )
+      title: "Mahaveer jayanthi",
+      description: "“Mahavir Jayanti & Vaisakhi: NSS NIT Kurukshetra celebrated with cultural performances, promoting unity and service.”",
+      image: "../../projects/mh.png",
+      
     },
     {
       id: 2,
-      title: "Health CheckUp Camp",
-      description: "“The Health of Nations is more important than the Wealth of Nations.” - Will Durant",
-      image: "../../DSC_4777.JPG",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0016.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 002 8.5c0 2.3 1.5 4.05 3 5.5l7 7 7-7z"/>
-        </svg>
-      )
+      title: "Black Day",
+      description: "Black Day Commemoration: NSS and NCC units honored CRPF martyrs of the Pulwama attack with a tribute, patriotic speeches, and a marathon, promoting unity and patriotism.",
+      image: "../../projects/blackday.png",
+      
     },
     {
       id: 3,
-      title: "Blood Donation Camp",
-      description: "“The only thing more valuable than wealth is life, and blood is the most valuable medicine for saving lives.”",
-      image: "../../DSC_4777.JPG",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/>
-        </svg>
-      )
+      title: "7 Day Camp",
+      description: "“NSS Camp in Sunheri Khalsa Village: A 7-day camp with educational programs, tree planting, health awareness, and cultural activities, fostering community development and empowerment.”",
+      image: "../../projects/7d.png",
     }
   ];
 
@@ -65,11 +50,10 @@ const ServiceCards = () => {
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
-              <div className="absolute -bottom-7 left-1/2 transform -translate-x-1/2 bg-blue-500 w-14 h-14 rounded-full flex items-center justify-center shadow-md">
                 <div className="text-white">
-                  {card.icon}
+              
                 </div>
-              </div>
+              
             </div>
             
             <div className="px-6 pt-10 pb-6">
