@@ -122,7 +122,7 @@ const Section = () => {
                 />
                 
                 <div className="p-4 bg-white">
-                  <p className="text-gray-800 font-medium">"The entire NSS team stands united,<br></br> showcasing their spirit of service and <br></br> teamwork.</p>
+                  <p className="text-gray-800 font-medium">"The entire NSS team stands united,<br></br> showcasing their spirit of service and <br></br> teamwork."</p>
                 </div>
               </div>
               

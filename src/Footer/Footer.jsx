@@ -117,7 +117,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} NSS NIT Kurukshetra. All rights reserved.</p>
-          <p className="mt-1">Designed with ❤️ by NIT KKR Students</p>
+          <p className="mt-1">Designed with ❤️ by Isha Gahlawat , P.G.Siddharth , V.M.Karthik and M.Uma Maheshwar Rao</p>
         </div>
       </div>
     </footer>
