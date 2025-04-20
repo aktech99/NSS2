@@ -22,13 +22,22 @@ const Navbar = () => {
   }, [activePage]);
   
   const handleNavClick = (pageId) => {
-    if(pageId === "home")
+    if (pageId === "teams") {
+      // Open PDF in new tab
+      window.open("/pdfs/nssmanual.pdf", "_blank");
+      return;
+    }
+  
+    if (pageId === "home") {
       navigate("/");
-    else
+    } else {
       navigate("/" + pageId);
+    }
+  
     setActivePage(pageId);
     setIsMenuOpen(false); // Close mobile menu after click
   };
+  
   
   return (
     <nav className="bg-white shadow-md w-full px-4 sm:px-6 py-4 fixed z-20">

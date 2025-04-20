@@ -155,9 +155,13 @@ const About = () => {
           <p className="text-lg mb-6 max-w-3xl mx-auto">
             Be the change you wish to see in the world. Join our NSS unit and contribute to building a better society through community service.
           </p>
-          <button className="bg-white text-blue-700 font-bold py-3 px-6 rounded-full hover:bg-blue-100 transition-colors">
-            Apply Now
-          </button>
+          <button
+  onClick={() => window.open('/pdfs/nssmanual.pdf', '_blank')}
+  className="bg-white text-blue-700 font-bold py-3 px-6 rounded-full hover:bg-blue-100 transition-colors"
+>
+  Read Manual Now
+</button>
+
         </section>
       </div>
 
