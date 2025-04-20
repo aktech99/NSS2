@@ -7,9 +7,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Healthcare Management Platform",
-      image: "/api/placeholder/600/400",
-      description: "A comprehensive healthcare management system for hospitals to streamline patient records, appointments, and billing processes.",
+      title: "Animal Welfare Event",
+      image: "/projects/animalwelfare.png",
+      description: "The primary objective was to educate students on animal welfare issues, with a specific focus on fostering compassion and promoting vegan alternatives as part of a broader ethical lifestyle.",
       client: "National Healthcare Services",
       duration: "12 months"
     },
