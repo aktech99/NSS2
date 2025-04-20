@@ -68,6 +68,13 @@ const Projects = () => {
       image: "/projects/tob.png",
       description: "The Tobacco Free campaign was a comprehensive health initiative hosted at our institution that successfully brought together students, faculty, and community members to address substance abuse issues. Throughout the event, medical experts delivered informative presentations on the harmful effects of tobacco, alcohol, and drugs, while former addicts shared powerful personal testimonies that resonated with attendees. The day featured interactive workshops on addiction recognition and prevention, alongside resource booths providing materials about support services and rehabilitation options. Students actively engaged in panel discussions exploring the socio-economic consequences of substance abuse, culminating in a collective pledge ceremony where participants committed to maintaining a tobacco-free environment. This impactful campaign not only raised critical awareness about substance abuse risks among youth but also strengthened our community's commitment to fostering a culture of health and wellness within our educational institution.​",
       date: "September 15, 2024"
+    },
+    {
+      id: 10,
+      title: "7 Day Camp",
+      image: "/projects/7d.png",
+      description: "From 12th to 18th December 2024, the NSS unit of NIT Kurukshetra organized a 7-day camp in Sunheri Khalsa Village, engaging in various community service activities. Volunteers conducted educational programs like drawing and essay competitions, tree plantation, health awareness sessions, and career guidance. They also promoted social issues like women’s hygiene and water conservation. Cultural activities included yoga, rangoli making, and movie screenings. The camp focused on community development, environmental sustainability, and youth empowerment. Volunteers and residents alike contributed to creating a positive impact, with the team returning to NIT Kurukshetra each day feeling accomplished.​",
+      date: "December 12, 2024"
     }
   ];
 
@@ -79,10 +86,11 @@ const Projects = () => {
   // Get unique categories
   const categories = ["All", ...new Set(projects.map(project => project.category))];
 
-  // Filter projects based on selected category
-  const filteredProjects = filterCategory === "All" 
-    ? projects 
-    : projects.filter(project => project.category === filterCategory);
+  // Filter projects based on selected category and sort by ID
+  const filteredProjects = (filterCategory === "All" 
+    ? [...projects] 
+    : projects.filter(project => project.category === filterCategory))
+    .sort((a, b) => a.id - b.id); // Sort by ID in ascending order
 
   // Open modal with selected project
   const openModal = (project) => {
