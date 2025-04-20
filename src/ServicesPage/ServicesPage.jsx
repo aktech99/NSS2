@@ -13,14 +13,14 @@ const ServicesPage = () => {
       id: "prayas",
       title: "Prayas (1st Year)",
       description: "Prayas introduces first-year students to social service through basic community interaction, awareness drives, and campus cleanliness initiatives. The focus is on building sensitivity toward societal issues and instilling discipline and teamwork. Volunteers learn the value of small efforts and consistent actions in making a meaningful difference in society.",
-      image: "/services/prayas.jpg",
+      image: "/units/prayas.png",
       color: "from-purple-500/80 to-indigo-600/80"
     },
     {
       id: "sahyog",
       title: "Sahyog (2nd Year)",
       description: "Sahyog emphasizes collaboration and coordination of 2nd year Students. These Volunteers engage in organizing events, conducting surveys and executing awareness campaigns. This stage connects them with communities through education drives, plantation activities, and health awareness camps. It enhances their communication and planning skills while nurturing empathy and responsibility toward various social and environmental challenges.",
-      image: "/services/sahyog.jpg",
+      image: "/units/sahyog.png",
       color: "from-blue-500/80 to-cyan-600/80"
     },
     {
@@ -34,21 +34,21 @@ const ServicesPage = () => {
       id: "sahaj",
       title: "Sahaj (3rd Year)",
       description: "Sahaj focuses on promoting inner peace and mental well-being. Volunteers engage in yoga, meditation, and mindfulness practices, learning to lead a balanced life. It emphasizes simplicity, harmony, and emotional strength as key pillars of effective community service.",
-      image: "/services/sahaj.jpg",
+      image: "/units/sehaj.png",
       color: "from-orange-400/80 to-amber-600/80"
     },
     {
       id: "seva",
       title: "Seva (3rd Year)",
       description: "Seva is centered around active volunteering and hands-on service. Volunteers teach underprivileged children, organize cleanliness drives, and conduct blood donation camps. This unit fosters compassion, leadership, and a genuine commitment to improving lives through dedicated community involvement.",
-      image: "/services/seva.jpg",
+      image: "/units/seva.png",
       color: "from-red-500/80 to-rose-600/80"
     },
     {
       id: "nirbhay",
       title: "Nirbhay (4th Year)",
       description: "Nirbhay embodies fearless leadership. Final-year volunteers lead and mentor juniors, manage large-scale events, and represent NSS at inter-college platforms. They handle responsibility, guide social projects, and ensure the sustainability of initiatives. Nirbhay is the stage of transformation, where confidence meets compassion to shape responsible citizens and future changemakers.",
-      image: "/services/nirbhay.jpg",
+      image: "/units/nirbhay.png",
       color: "from-yellow-400/80 to-amber-500/80"
     }
   ];

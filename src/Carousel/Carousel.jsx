@@ -3,16 +3,10 @@ import React, { useState, useEffect } from 'react';
 const Carousel = () => {
   const professors = [
     {
-      name: "Divyam",
-      designation: "Joint Secretary",
-      image: "../../carousel/2.jpeg"
+      name: "Nithin Raja Yadav",
+      designation: "General Seceratory",
+      image: "../../carousel/5.jpeg"
     },
-    {
-      name: "Abhishek Sharma",
-      designation: "Joint Seceratory",
-      image: "../../carousel/3.jpeg"
-    }
-    ,
     {
       name: "Isha gahlawat",
       designation: "General Seceratory",
@@ -20,15 +14,26 @@ const Carousel = () => {
     }
     ,
     {
-      name: "Nithin Raja Yadav",
-      designation: "General Seceratory",
-      image: "../../carousel/5.jpeg"
-    },
-    {
       name: "Divyanshi",
       designation: "General Seceratory",
       image: "../../carousel/6.jpg"
-    }
+    },
+    {
+      name: "Abhishek Koushik",
+      designation: "Joint Seceratory",
+      image: "../../carousel/7.png"
+    },
+    {
+      name: "Abhishek Sharma",
+      designation: "Joint Seceratory",
+      image: "../../carousel/3.jpeg"
+    },
+    {
+      name: "Divyam",
+      designation: "Joint Secretary",
+      image: "../../carousel/2.jpeg"
+    },
+    
   ];
 
   // Duplicate the professors array for infinite scroll effect
